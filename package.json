@@ -1,0 +1,20 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "seed": "node config/db/seeders/index.js"
+  },
+  "author": "Mirul Khanal",
+  "license": "MIT",
+  "dependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "nodemon": "^2.0.19"
+  }
+}
